@@ -2,7 +2,9 @@
 
 # Install
 
+```
 yarn install
+```
 
 # Check coverage
 
