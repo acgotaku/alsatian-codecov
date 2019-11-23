@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test:unit": "alsatian src/**/*.spec.ts",
-    "check-coverage": "nyc --reporter=lcov --reporter=html npm run test:unit && nyc report"
+    "check-coverage": "nyc npm run test:unit"
   },
   "dependencies": {
     "typescript": "^3.2.1"
